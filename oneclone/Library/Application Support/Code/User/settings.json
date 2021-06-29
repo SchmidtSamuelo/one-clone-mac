@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Yaru Dark Grape",
+    "window.zoomLevel": 1,
+    "debug.node.autoAttach": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.tabs.enabled": false,
+    "debug.javascript.autoAttachFilter": "smart",
+    "debug.javascript.terminalOptions": {
+        "skipFiles": [
+          "<node_internals>/**"
+        ]
+      },      
+}

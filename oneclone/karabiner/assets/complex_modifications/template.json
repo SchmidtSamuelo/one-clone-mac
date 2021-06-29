@@ -1,0 +1,9 @@
+{
+    "title": "Empty complex modifications",
+    "rules": [
+      {
+        "description": "Description of empty complex modifications",
+        "manipulators": []
+      }
+    ]
+  }

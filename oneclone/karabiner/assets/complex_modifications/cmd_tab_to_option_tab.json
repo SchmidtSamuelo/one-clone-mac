@@ -1,0 +1,54 @@
+{
+    "title": "Change cmd+tab to option+tab",
+    "rules": [
+      {
+        "description": "Change cmd+tab to option+tab",
+        "manipulators": [
+          {
+            "from": {
+              "key_code": "tab",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "tab",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+          {
+            "from": {
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "grave_accent_and_tilde",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          }
+        ]
+      }
+    ]
+  }

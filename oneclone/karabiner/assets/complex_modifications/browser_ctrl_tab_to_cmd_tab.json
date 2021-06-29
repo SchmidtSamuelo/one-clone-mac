@@ -1,0 +1,41 @@
+{
+    "title": "Change cmd+tab to control+tab",
+    "rules": [
+      {
+        "description": "Change cmd+tab to control+tab for browsers",
+        "manipulators": [
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.google\\.Chrome$",
+                  "^com\\.apple\\.Safari$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "tab",
+              "modifiers": {
+                "mandatory": [
+                  "command"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "tab",
+                "modifiers": [
+                  "control"
+                ]
+              }
+            ],
+            "type": "basic"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,369 @@
+{
+    "title": "Map option+digit to command+digit for Terminal app",
+    "rules": [
+      {
+        "description": "Map option+digit to command+digit for Terminal app",
+        "manipulators": [
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "0",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "0",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "1",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "1",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "2",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "2",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "3",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "3",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "4",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "4",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "5",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "5",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "6",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "6",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "7",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "7",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "8",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "8",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          },
+  
+  
+          {
+            "conditions": [
+              {
+                "bundle_identifiers": [
+                  "^com\\.apple\\.Terminal$",
+                  "^com\\.jwilm\\.Alacritty$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^co\\.zeit\\.hyperterm$",
+                  "^co\\.zeit\\.hyper$"
+                ],
+                "type": "frontmost_application_if"
+              }
+            ],
+            "from": {
+              "key_code": "9",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "9",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ],
+            "type": "basic"
+          }
+  
+        ]
+      }
+    ]
+  }
