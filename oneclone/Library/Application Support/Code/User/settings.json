@@ -8,6 +8,7 @@
     "debug.javascript.autoAttachFilter": "smart",
     "debug.javascript.terminalOptions": {
         "skipFiles": [
+          "${workspaceFolder}/node_modules/**",
           "<node_internals>/**"
         ]
       },      
