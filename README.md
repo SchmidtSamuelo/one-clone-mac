@@ -5,6 +5,7 @@ It attempts to mimic the windows keyboard layout shortcuts for external keyboard
 If using an external keyboard (which this is designed for) you should use the following keyboard preferences configuration for modifier keys:
 
 Caps Lock => Caps Lock
+
 Control => Control
 
 Option => Command
